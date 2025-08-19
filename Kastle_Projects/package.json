@@ -1,0 +1,21 @@
+{
+  "name": "kastle-projects-website",
+  "version": "1.0.0",
+  "description": "Professional construction company website for Kastle Projects",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "start": "echo 'Opening index.html' && open index.html || xdg-open index.html",
+    "serve": "python3 -m http.server 3000 || python -m http.server 3000"
+  },
+  "keywords": [
+    "construction",
+    "website",
+    "static",
+    "html"
+  ],
+  "author": "Kastle Projects",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
